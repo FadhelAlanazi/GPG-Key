@@ -1,5 +1,9 @@
-# GPG-Key
+## ماهو GPG Gnu Privacy Guard؟
 
-- In this tutorial you'll leaarn how to sign your work to be verified.
+هو برنامج خاص بالتشفير وهو جزء من مشروع جنو الخاص بمؤسسة البرمجيات الحرة.
+
+ - يعتبر `Git` مشفر وآمن ولكن عند التعامل مع المشاريع الخارجية على الانترنت مثل أخذ نسخة من المشروع على الجهاز أحياناً نواجه صعوبة بالتحقق من صحة المصدر أنه يكون آمن وموثوق.
+ 
+ وفي `Git` يوجد طرق للتحقق من هوية صاحب المشروع وهو عن طريق Signature
 
 ![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/2880px-Gnupg_logo.svg.png)
