@@ -5,7 +5,11 @@
 
 - في البداية سنقوم بتثبيت البرنامج حسب نظام التشغيل الخاص بك من خلال الرابط التالي: [اضغط هنا](https://www.gnupg.org/download/).
 
-ويوجد أكثر من `GPG key algorithms` مثل:
+## 2. فتح برنامج Command Line Interface
+
+## 3. إنشاء `gpg key`
+
+يوجد أكثر من `GPG key algorithms` مثل:
 - RSA 
 - ElGamal 
 - DSA
@@ -15,10 +19,6 @@
 وفي المثال التالي سنقوم باستخدام `RSA Key Algorithm`.
 
 
-## 2. فتح برنامج Command Line Interface
-
-
-## 3. إنشاء `gpg key`
 ```
 $ gpg --full-generate-key
 ``` 
