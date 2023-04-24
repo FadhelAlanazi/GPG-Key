@@ -6,4 +6,4 @@
  
  وفي `Git` يوجد طرق للتحقق من هوية صاحب المشروع وهو عن طريق Signature باستخدام GPG Key.
 
-![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/2880px-Gnupg_logo.svg.png)
+![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/gnupg.svg.png)
