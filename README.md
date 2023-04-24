@@ -10,4 +10,4 @@
  - التوقيع على Commits
  - يمكننا إضافة توقيع مالك المشروع سواء للـ Tags أو Commits وذلك من خلال الحصول أولاً على GPG key.
 
-![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/gnupg.svg.png)
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/gnupg.svg.png)
