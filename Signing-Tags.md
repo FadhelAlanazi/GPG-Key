@@ -10,13 +10,13 @@ gpg --list-secret-keys --keyid-format=short
 1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات كما في الصورة الموضحة أدناه في أول السطر.
 
 
-![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/private-key.png)
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/private-key.png)
 
 **ملاحظة:** في حال عدم ظهور private key حسب الصورة أعلاه يجب الرجوع الى خطوات إنشاء GPG Key
 
 2. ثم سنقوم بكتابة الأمر التالي في Command Line ونضع private key في نفس الامر:
 
-![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/SigningKey.png)
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/SigningKey.png)
 
 
 - الان أصبحنا جاهزين لعمل التوقيع باستخدام private key في المشروع. 
@@ -30,7 +30,7 @@ git tag -s v1.0 -m "signed my tag v1.0"
 4. سيطلب منك إدخال الرقم السري passphrase الذي تم إنشاؤه في `gpg key`
 
 
-![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/Signing-Tags.png)
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Signing-Tags.png)
 
 - تم الانتهاء من إنشاء Tag بأسم `v1.0` مع إضافة اسم الموقع عليها و الرسالة الخاصة بالتوقيع. 
 
@@ -48,7 +48,7 @@ git tag -v v1.0
 - ستظهر رسالة التحقق من صاحب التوقيع على `tag v1.0` كما في الشكل التالي:
 
 
-![](https://github.com/FadhelAlanazi/GPG-Key/blob/main/Verifying-Signer-tags.png)
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Verifying-Signer-tags.png)
 
 - تم الانتهاء من التحقق من صاحب التوقيع على `tag v1.0`.
 
