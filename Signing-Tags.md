@@ -47,9 +47,17 @@ git tag -v v1.0
 
 - ستظهر رسالة التحقق من صاحب التوقيع على `tag v1.0` كما في الشكل التالي:
 
+```
+object XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+type commit
+tag v1.0
+tagger FadhelAlanazi
 
-![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Verifying-Signer-tags.png)
-
+signed tag v1.0
+gpg: Signature made Mon Apr 24 07:03:06 2023 +03
+gpg:                using RSA key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+gpg: Good signature from "FadhelAlanazi <your email>" [ultimate]
+```
 - تم الانتهاء من التحقق من صاحب التوقيع على `tag v1.0`.
 
 **ملاحظة: عند القيام بالتحقق من صاحب التوقيع على tags أو commits  يجب الحصول على public key الخاص بالموقع ليتم التحقق منه**
