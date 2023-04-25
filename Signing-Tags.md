@@ -1,5 +1,9 @@
 ## التوقيع باستخدام Tags
 
+- في المثال التالي لدينا مشروع يتكون من 3 commits وسنقوم بإنشاء tag بأسم v1.0 مع إضافة التوقيع على tag.
+
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Signing-Tags.png)
+
 #### في البداية نحتاج الى استخدام private key لعمل التوقيع، ومن خلال GPG Key سنقوم باستخراج private key عن طريق الخطوات التالية:
 
 - سنقوم بكتابة الامر التالي في command line لإستخراج private key
@@ -16,11 +20,12 @@ gpg --list-secret-keys --keyid-format=short
 
 2. ثم سنقوم بكتابة الأمر التالي في Command Line ونضع private key في نفس الامر:
 
-![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/SigningKey.png)
+```
+git config --global user.signingkey <private key> 
+```
 
 
 - الان أصبحنا جاهزين لعمل التوقيع باستخدام private key في المشروع. 
-- اذ كان لدينا مشروع يتكون من 3 commits نستطيع إنشاء tag مع إضافة التوقيع  لصاحب المشروع على أي commit.
 
 3. **كيفية إنشاء Tag بأسم `v1.0` مع إضافة التوقيع عليها** 
 
@@ -30,7 +35,6 @@ git tag -s v1.0 -m "signed my tag v1.0"
 4. سيطلب منك إدخال الرقم السري passphrase الذي تم إنشاؤه في `gpg key`
 
 
-![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Signing-Tags.png)
 
 - تم الانتهاء من إنشاء Tag بأسم `v1.0` مع إضافة اسم الموقع عليها و الرسالة الخاصة بالتوقيع. 
 
@@ -48,11 +52,6 @@ git tag -v v1.0
 - ستظهر رسالة التحقق من صاحب التوقيع على `tag v1.0` كما في الشكل التالي:
 
 ```
-object XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-type commit
-tag v1.0
-tagger FadhelAlanazi
-
 signed tag v1.0
 gpg: Signature made Mon Apr 24 07:03:06 2023 +03
 gpg:                using RSA key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
