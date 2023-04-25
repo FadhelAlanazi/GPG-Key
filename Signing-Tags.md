@@ -1,6 +1,6 @@
 ## التوقيع باستخدام Tags
 
-- في المثال التالي لدينا مشروع يتكون من 3 commits وسنقوم بإنشاء tag بأسم v1.0 مع إضافة التوقيع على tag.
+- في المثال التالي لدينا مشروع يتكون من 3 commits وسنقوم بإنشاء tag بأسم `v1.0` مع إضافة التوقيع على tag.
 
 ![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Signing-Tags.png)
 
