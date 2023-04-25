@@ -86,7 +86,7 @@ Type a secure passphrase.
 Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
 ```
 
--سيتم حفط `gpg key` بداخل المجلد المخفي بأسم `gnupg.` بعد أن تم إنشاء `gpg key` تستطيع التحقق من خلال الامتداد الخاص بك
+-سيتم حفظ `gpg key` بداخل المجلد المخفي بأسم `gnupg.` بعد أن تم إنشاء `gpg key` تستطيع التحقق من خلال الامتداد الخاص بك
 
 ```
 gpg: /Users/<Your Name>/.gnupg/trustdb.gpg: trustdb created
