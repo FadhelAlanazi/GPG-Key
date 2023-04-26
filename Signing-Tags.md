@@ -11,7 +11,11 @@
 gpg --list-secret-keys --keyid-format=short
 ```
 
-1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات كما في الصورة الموضحة أدناه في أول السطر.
+1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات **XXXXXXXX** كما في الصورة الموضحة أدناه في أول السطر.
+
+```
+sec   rsa4096/XXXXXXXX 2023-04-22 [SC] [expires: 2024-04-21]
+```
 
 ![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/privatekey.png)
 
@@ -35,7 +39,7 @@ git tag -s v1.0 -m "signed my tag v1.0"
 
 
 
-- تم الانتهاء من إنشاء Tag بأسم `v1.0` مع إضافة اسم الموقع عليها و الرسالة الخاصة بالتوقيع. 
+- تم الانتهاء من إنشاء Tag بأسم `v1.0` مع إضافة اسم الموقًع عليه و الرسالة الخاصة بالتوقيع. 
 
 ----
 
