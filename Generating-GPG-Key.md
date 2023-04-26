@@ -80,14 +80,14 @@ GnuPG needs to construct a user ID to identify your key.
 Type a secure passphrase.
 ```
 
-- والخطوة الأخير وهي التأكيد لإنشاء `gpg key` أو تعديل البيانات الشخصية. عند اختيار `O` سيتم إنشاء `gpg key`
+- والخطوة الأخير وهي التأكيد لإنشاء `gpg key` أو تعديل البيانات الشخصية. 
+- عند اختيار `O` سيتم إنشاء `gpg key`.
 
 ```
 Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
 ```
 
--سيتم حفظ `gpg key` بداخل المجلد المخفي بأسم `gnupg.` بعد أن تم إنشاء `gpg key` تستطيع التحقق من خلال الامتداد الخاص بك
-
+سيتم حفظ gpg key بداخل المجلد المخفي بأسم gnupg.
 ```
 gpg: /Users/<Your Name>/.gnupg/trustdb.gpg: trustdb created
 ```
