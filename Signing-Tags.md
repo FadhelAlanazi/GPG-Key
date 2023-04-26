@@ -14,7 +14,7 @@ gpg --list-secret-keys --keyid-format=short
 1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات **XXXXXXXX** كما في الصورة الموضحة أدناه.
 
 
-![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/private-key.png)
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Privatekey.png)
 
 **ملاحظة:** في حال عدم ظهور private key حسب الصورة أعلاه يجب الرجوع الى خطوات إنشاء GPG Key
 
