@@ -11,13 +11,10 @@
 gpg --list-secret-keys --keyid-format=short
 ```
 
-1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات **XXXXXXXX** كما في الصورة الموضحة أدناه في أول السطر.
+1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات **XXXXXXXX** كما في الصورة الموضحة أدناه.
 
-```
-sec   rsa4096/XXXXXXXX 2023-04-22 [SC] [expires: 2024-04-21]
-```
 
-![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/privatekey.png)
+![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/private-key.png)
 
 **ملاحظة:** في حال عدم ظهور private key حسب الصورة أعلاه يجب الرجوع الى خطوات إنشاء GPG Key
 
