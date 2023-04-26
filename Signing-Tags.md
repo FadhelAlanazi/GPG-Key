@@ -13,7 +13,6 @@ gpg --list-secret-keys --keyid-format=short
 
 1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات كما في الصورة الموضحة أدناه في أول السطر.
 
-
 ![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/privatekey.png)
 
 **ملاحظة:** في حال عدم ظهور private key حسب الصورة أعلاه يجب الرجوع الى خطوات إنشاء GPG Key
@@ -54,7 +53,7 @@ git tag -v v1.0
 ```
 signed tag v1.0
 gpg: Signature made Mon Apr 24 07:03:06 2023 +03
-gpg:                using RSA key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+gpg:                using RSA key 
 gpg: Good signature from "FadhelAlanazi <your email>" [ultimate]
 ```
 - تم الانتهاء من التحقق من صاحب التوقيع على `tag v1.0`.
