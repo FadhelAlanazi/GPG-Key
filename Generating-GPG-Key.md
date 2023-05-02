@@ -20,7 +20,7 @@
 
 
 ```
-$ gpg --full-generate-key
+gpg --full-generate-key
 ``` 
 
 ## 4. تحديد gpg key algorithm
@@ -38,7 +38,7 @@ $ gpg --full-generate-key
   (14) Existing key from card
   ```
   
-  ## 5. تحديد gpg key size
+  ## 5. تحديد key size
 
 - سيطلب منك تحديد حجم key أو اختيار الوضع الافتراضي ويجب أن يكون على الأقل `4096 bits` سنقوم باختيار `4096`
 
@@ -47,11 +47,11 @@ RSA keys may be between 1024 and 4096 bits long.
 What keysize do you want? 
 ```
 
-  ## 6. تحديد فترة صلاحية gpg key
+  ## 6. تحديد فترة صلاحية key
 
-- ثم سيطلب تحديد مدة صلاحية `gpg key` حسب سنة أو شهر أو اسبوع أو يوم , عند تحديد `0` فلن يكون هناك تاريخ لإنتهاء صلاحية `gpg key`  
-- عند تحديد `1y` سيكون تاريخ صلاحيتة سنة.
-- يرمز لحرف `n` عدد الأيام لإنتهاء صلاحية `gpg key`
+- ثم سيطلب تحديد مدة صلاحية `key` حسب سنة أو شهر أو اسبوع أو يوم , عند تحديد `0` فلن يكون هناك تاريخ لإنتهاء صلاحية `key`  
+- عند تحديد `1y` سيكون تاريخ انتهاء صلاحية `key` سنة.
+- يرمز لحرف `n` عدد الأيام.
 
 ```
 Please specify how long the key should be valid.
@@ -60,6 +60,11 @@ Please specify how long the key should be valid.
       <n>w = key expires in n weeks
       <n>m = key expires in n months
       <n>y = key expires in n years
+```
+- ستظهر رسالة تأكيد مدة صلاحية `key` 
+
+```
+Is this correct? (y/N)
 ```
 
   ## 7. إضافة user ID information
@@ -73,6 +78,14 @@ GnuPG needs to construct a user ID to identify your key.
 - Comment:
 ```
 
+- ستظهر رسالة التأكيد لإنشاء `gpg key` أو تعديل البيانات الشخصية. 
+- عند اختيار `O` سيتم إنشاء `gpg key`.
+
+```
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
+```
+
+
 ## 8. إضافة الرقم السري passphrase
 
 - سيطلب منك إدخال الرقم السري 
@@ -80,15 +93,6 @@ GnuPG needs to construct a user ID to identify your key.
 Type a secure passphrase.
 ```
 
-- والخطوة الأخير وهي التأكيد لإنشاء `gpg key` أو تعديل البيانات الشخصية. 
-- عند اختيار `O` سيتم إنشاء `gpg key`.
+سيتم حفظ `gpg key` بداخل المجلد المخفي بأسم `gnupg.`
 
-```
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
-```
-
-سيتم حفظ gpg key بداخل المجلد المخفي بأسم gnupg.
-```
-gpg: /Users/<Your Name>/.gnupg/trustdb.gpg: trustdb created
-```
 
