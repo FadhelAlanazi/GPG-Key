@@ -95,4 +95,4 @@ Type a secure passphrase.
 
 سيتم حفظ `gpg key` بداخل المجلد المخفي بأسم `gnupg.`
 
-
+- **تم الانتهاء من إنشاء GPG key**
