@@ -4,28 +4,28 @@
 
 ![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Signing-Tags.png)
 
-#### في البداية نحتاج الى استخدام private key لعمل التوقيع، ومن خلال GPG Key سنقوم باستخراج private key عن طريق الخطوات التالية:
+#### في البداية نحتاج الى استخدام private key لعمل التوقيع على Tags أو Commits ، ومن خلال GPG key ID سنقوم بتنفيذ الخطوات التالية:
 
-- سنقوم بكتابة الامر التالي في command line لإستخراج private key
+- سنقوم بكتابة الامر التالي في command line لإستخراج GPG key ID
 ```
 gpg --list-secret-keys --keyid-format=short
 ```
 
-1. ثم بعد ذلك سنقوم بأخذ private key المكون من 8 خانات **XXXXXXXX** كما في الصورة الموضحة أدناه.
+1. ثم بعد ذلك سنقوم بأخذ GPG key ID المكون من 8 خانات **XXXXXXXX** كما في الصورة الموضحة أدناه.
 
 
 ![](https://raw.githubusercontent.com/FadhelAlanazi/GPG-Key/main/Privatekey.png)
 
-**ملاحظة:** في حال عدم ظهور private key حسب الصورة أعلاه يجب الرجوع الى خطوات إنشاء GPG Key
+**ملاحظة:** في حال عدم ظهور GPG key ID حسب الصورة أعلاه يجب الرجوع الى خطوات إنشاء GPG Key
 
-2. ثم سنقوم بكتابة الأمر التالي في Command Line ونضع private key في نفس الامر:
+2. ثم سنقوم بكتابة الأمر التالي في Command Line ونضع GPG key ID في نفس الامر:
 
 ```
-git config --global user.signingkey <private key> 
+git config --global user.signingkey <GPG key ID> 
 ```
 
 
-- الان أصبحنا جاهزين لعمل التوقيع باستخدام private key في المشروع. 
+- **الان أصبحنا جاهزين لعمل التوقيع في المشروع**. 
 
 3. **كيفية إنشاء Tag بأسم `v1.0` مع إضافة التوقيع عليها** 
 
