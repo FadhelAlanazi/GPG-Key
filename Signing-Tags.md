@@ -58,3 +58,8 @@ gpg:                using RSA key
 gpg: Good signature from "FadhelAlanazi <your email>" [ultimate]
 ```
 - **تم الانتهاء من التحقق من التوقيع على `tag v1.0`**.
+
+
+## المصادر
+
+<https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key>
