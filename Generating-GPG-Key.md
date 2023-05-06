@@ -4,9 +4,9 @@
 ## 1. تثبيت برنامج GPG
 
 - في البداية سنقوم بتثبيت البرنامج حسب نظام التشغيل الخاص بك من خلال الرابط التالي: 
- ```
- https://www.gnupg.org/download/
- ```
+ 
+ <https://www.gnupg.org/download/>
+
 
 ## 2. فتح برنامج Command Line Interface
 
